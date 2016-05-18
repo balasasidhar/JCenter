@@ -1,17 +1,21 @@
 # JCenter
 Android JCenter build code
 
-<code>
-    bintray.user = xxxxx
-    bintray.apikey = **************
-</code>
+<pre>
+    <code>
+        bintray.user = xxxxx
+        bintray.apikey = **************
+    </code>
+</pre>
 
-<kbd>
-    gradle build & bintrayUpload (unix)
-    
-    (or)
-    
-    gradlew build & bintrayUpload (windows)
-</kbd>
+<pre>
+    <kbd>
+        gradle build & bintrayUpload (unix)
+    </kbd>
+        (or)
+    <kbd>
+        gradlew build & bintrayUpload (windows)
+    </kbd>
+</pre>
 
 
