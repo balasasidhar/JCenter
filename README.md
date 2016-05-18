@@ -10,9 +10,7 @@ bintray.apikey = **************
 2. Run following command 
 <pre>
 gradle build & bintrayUpload (unix)
-
-                  (or)
-
+                (or)
 gradlew build & bintrayUpload (windows)
 </pre>
 
