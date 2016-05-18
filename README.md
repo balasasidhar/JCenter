@@ -1,21 +1,17 @@
 # JCenter
 Android JCenter build code
 
+1. config <b>local.properties</b> file with <b> Bintray Account Details </b>
 <pre>
-<code>
 bintray.user = xxxxx
 bintray.apikey = **************
-</code>
 </pre>
 
+2. Run following command 
 <pre>
-<kbd>
 gradle build & bintrayUpload (unix)
-</kbd>
-(or)
-<kbd>
+              (or)
 gradlew build & bintrayUpload (windows)
-</kbd>
 </pre>
 
 
